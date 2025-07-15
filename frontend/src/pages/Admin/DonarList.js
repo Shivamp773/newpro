@@ -5,11 +5,11 @@ import API from "../../services/API";
 
 const DonarList = () => {
   const [data, setData] = useState([]);
-  //find donar records
+ 
   const getDonars = async () => {
     try {
       const { data } = await API.get("/admin/donar-list");
-      //   console.log(data);
+      
       if (data?.success) {
         setData(data?.donarData);
       }
