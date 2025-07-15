@@ -23,7 +23,7 @@ const app = express();
 // Middlewares
 app.use(express.json());
 const corsOptions = {
-  origin: "http://localhost:3000", 
+  origin: "https://newpro-72pr.vercel.app/", 
   credentials: true,
 };
 app.use(cors(corsOptions));
