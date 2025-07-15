@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://newpro-green.vercel.app",
+  baseURL: "https://newpro-omega.vercel.app",
   withCredentials: true, 
 });
 
@@ -11,6 +11,6 @@ API.interceptors.request.use((req) => {
   }
   return req;
 });
-console.log("Axios Base URL →", "https://newpro-green.vercel.app");
+console.log("Axios Base URL →", "https://newpro-omega.vercel.app/");
 
 export default API;
