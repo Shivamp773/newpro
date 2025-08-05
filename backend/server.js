@@ -23,7 +23,7 @@ const app = express();
 // Middlewares
 app.use(express.json());
 const corsOptions = {
-  origin: "https://newpro-72pr.vercel.app", 
+  origin: "https://bloodbank-p7g8.vercel.app", 
   credentials: true,
 };
 app.use(cors(corsOptions));
